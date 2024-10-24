@@ -3,9 +3,10 @@ import React from "react";
 const About = () => {
   return (
     <center>
+    <>
       <div className="bg-blue-400 h-screen items-center ">
-        <h1 className="text-3xl ">ABOUT</h1>
-        <pre className="text-xl">
+        <h1 className="text-3xl">ABOUT</h1>
+        <p className="text-xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
           molestias, vero nemo iure libero explicabo accusantium? Sit doloribus
           iure quod quasi magnam nesciunt repellat reiciendis debitis
@@ -17,8 +18,9 @@ const About = () => {
           inventore eos. Est dicta repudiandae porro quae odit eius laudantium
           quibusdam. Eius dolorum eaque harum ut labore laborum quae eligendi
           quasi libero eum sed cumque nisi necessitatibus, fugiat ullam.
-        </pre>
+        </p>
       </div>
+    </>
     </center>
   );
 };
